@@ -5,7 +5,7 @@ This project performs sentiment analysis on ChatGPT reviews using a pre-trained 
 
 This project uses Raw_Data (a dataset of ChatGPT reviews) to train a sentiment analysis model. The VS file (Jupyter notebook) handles model training. The Streamlit UI (in the st/ folder) serves as the frontend for real-time sentiment classification of user reviews. The app predicts whether reviews are Positive, Negative, or Neutral and visualizes sentiment distribution.
 
-``
+```
 mini_pj_5/
 │
 ├── st/                                # 📦 Main app folder
