@@ -12,3 +12,6 @@ seaborn
 wordcloud
 pandas
 numpy==1.26.0
+torch
+torchvision
+torchaudio
