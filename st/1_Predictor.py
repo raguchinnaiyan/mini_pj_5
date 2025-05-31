@@ -12,8 +12,7 @@ st.write("Enter a sentence below to analyze its sentiment.")
 
 
 # Load sentiment analysis pipeline
-sentiment_analyzer = pipeline("sentiment-analysis", device=-1)  # -1 means use CPU
-
+sentiment_analyzer = pipeline("sentiment-analysis", framework="pt", device=-1)
 
 # Text input
 user_text = st.text_input("Enter a sentence:")
